@@ -20,7 +20,7 @@ function Button1() {
 
   // Función para decrementar el contador en 1
   const decrementar2 = () => {
-    setContador2(contador - contador2);
+    setContador2(contador - contadorr2);
   };
 
 
