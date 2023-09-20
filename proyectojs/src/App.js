@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import Button1 from './componentes/Botonera2';
+import Navbar from './componentes/navbar';
+import Botonera from './componentes/BotoneraMaster';
+import Horario from './componentes/Horario';
 
 function App() {
   return (
-    <div>
-      <h1>Bienvenido a mi aplicación</h1>
-      <Button1/>
+    <div className='MyApp'>
+      <Navbar/>
+      <Botonera/> 
+      <Horario/>
     </div>
   );
 }

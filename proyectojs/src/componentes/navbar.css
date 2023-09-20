@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #333; 
+  }
+  
+  .navbar h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0; 
+  }
+  

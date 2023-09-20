@@ -1,0 +1,27 @@
+button {
+    background-color: #f03737; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: 10px; 
+    cursor: pointer; 
+    margin: 10px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+  }
+
+  .fechaText1, .fechaText, .c, .c1 {
+    color: #fff;
+  }
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+  
