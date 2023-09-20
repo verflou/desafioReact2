@@ -4,7 +4,7 @@ import './BotoneraMaster.css';
 function Botonera() {
   const [contador, setContador] = useState(0);
   const [contador2, setContador2] = useState(0);
-  const [fecha, setFecha] = useState(new Date()); // Estado para almacenar la fecha
+  const [fecha, setFecha] = useState(new Date()); // almacena la fecha nueva
 
   function incrementar() {
     setContador(contador + 1);
@@ -32,9 +32,9 @@ function Botonera() {
     <div className="container">
       <h1 className="fechaText" style={{ textAlign: 'center' }}>Fecha original: <br /> {new Date().toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}</h1>
       <div className="button-container">
-        <button onClick={incrementar}>Incrementar</button>
-        <p className="c1">Contador: {contador}</p>
         <button onClick={decrementar}>Decrementar</button>
+        <p className="c1">Contador: {contador}</p>
+        <button onClick={incrementar}>Incrementar</button>
       </div>
       
       <div className="button-container">
